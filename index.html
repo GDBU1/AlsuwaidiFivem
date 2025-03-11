@@ -12,7 +12,7 @@
             padding: 0;
             background: black;
             font-family: 'Courier New', Courier, monospace;
-            color: red;
+            color: blue;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,28 +23,28 @@
         }
         #content {
             display: none;
-            opacity: 0;
+            opacity: 12;
             transition: opacity 2s ease;
         }
         .image-container img {
             width: 400px; 
             height: auto;
-            border: 2px solid red; 
+            border: 2px solid blue; 
             border-radius: 15px;
-            box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); 
+            box-shadow: 0 0 15px rgba(222, 0, 220, 0.7); 
         }
           .info {
             margin-top: 20px;
             font-size: 1.5em;
-            color: red; 
-            text-shadow: 0 0 8px red, 0 0 15px red, 0 0 25px red;
+            color: blue; 
+            text-shadow: 0 0 8px blue, 0 0 15px red, 0 0 25px red;
             letter-spacing: 4.5px; 
             white-space: pre-wrap;
         }
         .text {
             margin-top: 5px;
             font-size: 75px; 
-            color: red; 
+            color: blue; 
             text-shadow: 0 0 8px red, 0 0 15px red, 0 0 25px red; 
             letter-spacing: 4.5px;
         }
@@ -68,22 +68,24 @@
 <body>
     <div class="video-container">
         <video autoplay="" loop="" muted="">
-            <source src="" type="video/mp4">
+            <source src="https://gdbu1.github.io/AlsuwaidiFivem/We_Are_FSociety.mov
+" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 
     <div class="gif-container" style="display: none;">
-        <img src="./discordr-e-logo.gif" alt="">
+        <img src="https://discord.com/channels/1180875003676340234/1198953984623382548/1348418810318819430" alt="">
     </div>
 
     <div id="content" style="display: block; opacity: 1;">
         <div class="image-container">
-            <img src="/discordr-e-logo.gif" alt="">
+            <img src="https://media1.giphy.com/media/a3SNJoR0a4ugcKi1Y9/giphy_s.gif?cid=6c09b952np9ueezmdp6p0pvzsedyvna2zmnfsjdoiispktte&ep=v1_gifs_search&rid=giphy_s.gif&ct=g" alt="">
         </div>
 
         <audio autoplay="" loop="">
-            <source src="https://discord.com/channels/1180875003676340234/1198953984623382548/1348418810318819430" type="audio/mpeg">
+            <source src="https://gdbu1.github.io/AlsuwaidiFivem/naaw.mov
+" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         <div class="info" id="ip-info"> &lt;&lt; Hacked By Alsuwaidi  &gt;&gt;
@@ -112,7 +114,7 @@
         .then(data => {
             const { ip, country, city, region, loc, org, timezone } = data;
             const infoDiv = document.getElementById('ip-info');
-            infoDiv.innerHTML = ` << Hacked By Alsuwaidi  >>
+            infoDiv.innerHTML = ` << ِAlsuwaidi in your server  >>
 <strong>IP:</strong><span style='color: red;'>"${ip}"</span><br>
 <strong>City:</strong><span style='color: red;'>"${city}"</span><br>
 <strong>Region:</strong><span style='color: red;'>"${region}"</span><br>
